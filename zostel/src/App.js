@@ -4,7 +4,7 @@ import LiveItNow from './components/LiveItNow';
 function App() {
   return (
     <div className="App">
-      <LiveItNow />
+      {/* <LiveItNow /> */}
     </div>
   );
 }
