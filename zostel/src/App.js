@@ -1,11 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import LongStay from './pages/LongStay';
+// <<<<<<< main
+// import LongStay from './pages/LongStay';
+=======
+import LiveItNow from './components/LiveItNow';
+// >>>>>>> main
 
 function App() {
   return (
     <div className="App">
-     <LongStay/>
+// <<<<<<< main
+//      <LongStay/>
+=======
+      {/* <LiveItNow /> */}
+// >>>>>>> main
     </div>
   );
 }
