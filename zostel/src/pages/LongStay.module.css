@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+scrollbar-width: 5px;
+scrollbar-track-color:white ;
+}
 .header{
     padding: 16px 30px;
     align-items: center;
@@ -59,34 +63,31 @@
     background-image: url("https://book.zostel.com/static/media/bg1.a8f3847b.jpg");
 }
 h2{
+    font-size: 30px;
     text-align: center;
 }
 .featuresList{
     width: fit-content;
     display: grid;
     grid-template-columns: repeat(3,400px);
-    grid-template-rows: repeat(3,200px);
+    grid-template-rows: repeat(3,190px);
     margin: auto;
-    gap:0.5rem
+    gap:1rem
 }
 .featuresList >div{
-    text-align: center;
     background-size: cover;
     background-position: 50%;
     border-radius: 0.5rem;
-    width: 100%;
-    height: 100%;
 }
 .featuresList >div >div{
-    /* display: block; */
-    width: 100%;
-    height: 100%;
     border-radius: 0.5rem;
-    position: relative;
+    padding: 20.5%;
+    background-size: contain;
     background-color: rgba(0, 0, 0,.25);
 }
-.featuresList > div > span{
-    overflow: visible;
-    position: relative;
-    /* z-index: 2; */
+.featuresList > div >div > span{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    /* overflow: visible; */
 }

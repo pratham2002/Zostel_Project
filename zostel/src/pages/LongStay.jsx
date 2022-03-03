@@ -56,8 +56,9 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/unwind-with-a-view.484b7bd5.jpg)",
               }}
             >
-              <div></div>
-              <span>Unwind with a View</span>
+              <div>
+                <span>Unwind with a View</span>
+              </div>
             </div>
             <div
               style={{
@@ -65,8 +66,9 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/fulfilling-meals.f1e64564.jpg)",
               }}
             >
-              <div></div>
-              <span>Fulfilling Meals</span>
+              <div>
+                <span>Fulfilling Meals</span>
+              </div>
             </div>
             <div
               style={{
@@ -74,9 +76,9 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/work-uninterrupted.83d9188d.jpg)",
               }}
             >
-              <div></div>
-
-              <span>Work Uninterrupted</span>
+              <div>
+                <span>Work Uninterrupted</span>
+              </div>
             </div>
             <div
               style={{
@@ -84,9 +86,9 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/explore-destinations.d29352d3.jpg)",
               }}
             >
-              <div></div>
-
-              <span>Explore Destinations</span>
+              <div>
+                <span>Explore Destinations</span>
+              </div>
             </div>
             <div
               style={{
@@ -94,9 +96,9 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/work-friendly.b4efb195.jpg)",
               }}
             >
-              <div></div>
-
-              <span>Work Friendly Spaces</span>
+              <div>
+                <span>Work Friendly Spaces</span>
+              </div>
             </div>
             <div
               style={{
@@ -104,9 +106,9 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/leave-responsibilities.278af7fb.jpg)",
               }}
             >
-              <div></div>
-
-              <span>Leave Responsibilities</span>
+              <div>
+                <span>Leave Responsibilities</span>
+              </div>
             </div>
             <div
               style={{
@@ -114,9 +116,9 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/ample-me-time.2db99362.jpg)",
               }}
             >
-              <div></div>
-
-              <span>Ample Me Time</span>
+              <div>
+                <span>Ample Me Time</span>
+              </div>
             </div>
             <div
               style={{
@@ -124,12 +126,17 @@ export default function LongStay() {
                   "url(https://book.zostel.com/static/media/periodic-sanitisation.79e93b6c.jpg)",
               }}
             >
-              <div></div>
-              <span>Periodic Sanitisation</span>
+              <div>
+                <span>Periodic Sanitisation</span>
+              </div>
             </div>
           </div>
         </section>
-        <section></section>
+        <section>
+          <div>
+            <h2>FAQs</h2>
+          </div>
+        </section>
       </section>
     </>
   );
